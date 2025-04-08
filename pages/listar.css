@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    background-color: #f3fff0;
+    padding: 40px;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: auto;
+    background-color: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  header h1 {
+    color: #30c77f;
+    font-size: 28px;
+  }
+  
+  .btn-adicionar {
+    background-color: #30c77f;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+  
+  .btn-adicionar:hover {
+    background-color: #26a96a;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  thead {
+    background-color: #e3ffe5;
+  }
+  
+  thead th {
+    text-align: left;
+    padding: 12px;
+    color: #30c77f;
+    font-size: 16px;
+  }
+  
+  tbody td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    color: #444;
+  }
+  
+  tbody tr:hover {
+    background-color: #f0fff5;
+  }
+  
+  .voltar-link {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .voltar-link a {
+    text-decoration: none;
+    color: #30c77f;
+    font-weight: bold;
+    border-bottom: 2px solid #30c77f;
+  }
+  

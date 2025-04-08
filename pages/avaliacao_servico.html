@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Avaliação de Serviço</title>
+  <link rel="stylesheet" href="avaliacao_servico.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="left-panel">
+      <h4>Logo da empresa</h4>
+      <h1>Avalie o Serviço</h1>
+      <p>
+        Sua opinião é muito importante! Avalie o atendimento e qualidade do serviço prestado.
+      </p>
+    </div>
+    <div class="right-panel">
+      <h2>Avaliação</h2>
+      <form>
+        <label for="cliente">Seu nome</label>
+        <input type="text" id="cliente" name="cliente" placeholder="Nome completo" required />
+
+        <label for="servico">Serviço realizado</label>
+        <input type="text" id="servico" name="servico" placeholder="Ex: Corte de cabelo" required />
+
+        <label for="nota">Nota</label>
+        <select id="nota" name="nota" required>
+          <option value="">Selecione uma nota</option>
+          <option value="5">⭐️⭐️⭐️⭐️⭐️ - Excelente</option>
+          <option value="4">⭐️⭐️⭐️⭐️ - Muito bom</option>
+          <option value="3">⭐️⭐️⭐️ - Bom</option>
+          <option value="2">⭐️⭐️ - Regular</option>
+          <option value="1">⭐️ - Ruim</option>
+        </select>
+
+        <label for="comentario">Comentário</label>
+        <textarea id="comentario" name="comentario" rows="4" placeholder="Escreva aqui seu feedback..."></textarea>
+
+        <button type="submit">Enviar Avaliação</button>
+      </form>
+
+      <div class="voltar-link">
+        <a href="index.html">Voltar</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

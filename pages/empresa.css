@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    background-color: #f3fff0;
+    color: #333;
+  }
+  
+  .painel {
+    display: flex;
+    height: 100vh;
+  }
+  
+  /* Lateral */
+  .sidebar {
+    width: 220px;
+    background-color: #30c77f;
+    color: white;
+    padding: 30px 20px;
+  }
+  
+  .sidebar h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  .sidebar nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 15px 0;
+    padding: 10px;
+    border-radius: 6px;
+    transition: background 0.2s ease;
+  }
+  
+  .sidebar nav a:hover {
+    background-color: #26a96a;
+  }
+  
+  /* Conteúdo principal */
+  .conteudo {
+    flex: 1;
+    padding: 40px;
+    background-color: #ffffff;
+  }
+  
+  .conteudo header h1 {
+    font-size: 28px;
+    color: #30c77f;
+    margin-bottom: 5px;
+  }
+  
+  .conteudo header p {
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  .cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background-color: #e9ffe5;
+    border-left: 6px solid #30c77f;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    min-width: 200px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card h3 {
+    font-size: 18px;
+    color: #30c77f;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 14px;
+    color: #444;
+  }
+  

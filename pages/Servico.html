@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cadastro de Serviço</title>
+  <link rel="stylesheet" href="servico.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="left-panel">
+      <h4>Logo da empresa</h4>
+      <h1>Cadastro de Serviço</h1>
+      <p>
+        Registre aqui os serviços oferecidos pela sua empresa. Informe nome, descrição, preço e duração para facilitar o controle e agendamento.
+      </p>
+    </div>
+    <div class="right-panel">
+      <h2>Novo Serviço</h2>
+      <form>
+        <label for="nome">Nome do serviço</label>
+        <input type="text" id="nome" name="nome" placeholder="Ex: Corte de cabelo" required />
+
+        <label for="descricao">Descrição</label>
+        <input type="text" id="descricao" name="descricao" placeholder="Descrição breve" required />
+
+        <label for="preco">Preço (R$)</label>
+        <input type="number" id="preco" name="preco" placeholder="Ex: 50.00" step="0.01" required />
+
+        <label for="duracao">Duração (minutos)</label>
+        <input type="number" id="duracao" name="duracao" placeholder="Ex: 45" required />
+
+        <button type="submit">Cadastrar Serviço</button>
+      </form>
+
+      <div class="voltar-link">
+        <a href="listar.html">Voltar</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
